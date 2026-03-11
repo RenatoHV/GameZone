@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ProductDetalhes.css"; // Importando o CSS externo
+import "./ProductDetalhes.css";
 
 const ProductDetalhes = () => {
   const [selectedSize, setSelectedSize] = useState(39);
@@ -28,7 +28,7 @@ const ProductDetalhes = () => {
       </nav>
 
       <div className="product-container">
-        {/* Seção de imagem do produto */}
+        
         <div className="product-image-section">
           <img src={selectedImage} alt={product.name} className="main-image" />
           <div className="thumbnail-container">
@@ -44,7 +44,6 @@ const ProductDetalhes = () => {
           </div>
         </div>
 
-        {/* Seção de detalhes do produto */}
         <div className="product-details">
           <h1 className="product-title">{product.name}</h1>
           <p className="product-category">
@@ -61,7 +60,6 @@ const ProductDetalhes = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          {/* Seleção de tamanho */}
           <div className="size-selection">
             <p>Tamanho</p>
             <div className="size-options">
@@ -77,7 +75,6 @@ const ProductDetalhes = () => {
             </div>
           </div>
 
-          {/* Seleção de cores */}
           <div className="product-colors">
             <p>Cor</p>
             <div className="color-options">
@@ -92,12 +89,10 @@ const ProductDetalhes = () => {
             </div>
           </div>
 
-          {/* Botão de compra */}
           <button className="buy-button" type="button">COMPRAR</button>
         </div>
       </div>
 
-      {/* Produtos Relacionados */}
       <div className="related-products">
         <h2>Produtos Relacionados</h2>
         <div className="related-list">

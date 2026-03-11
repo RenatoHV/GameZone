@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/ProductHeader.css';
+import '../Styles/ProductHeader.css';
 
 export default function ProductHeader({ total, sortOption, setSortOption }) {
   return (
     <div className="d-flex justify-content-between align-items-center mb-4 product-header">
       <div>
-        <strong>Resultados para “Tênis”</strong> – {total} produtos
+        <strong>Resultados para “Jogos”</strong> – {total} produtos
       </div>
       <div>
         <label htmlFor="sort" className="me-2 fw-semibold">Ordenar por:</label>

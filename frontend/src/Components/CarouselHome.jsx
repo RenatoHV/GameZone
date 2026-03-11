@@ -1,7 +1,7 @@
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../Styles/CarouselHome.css";
-// Import Swiper styles
+
 import { Button } from "react-bootstrap";
 import "swiper/css";
 import "swiper/css/pagination";
