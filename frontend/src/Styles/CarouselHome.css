@@ -75,29 +75,25 @@
 }
 
 .offerButton:hover {
-    background-color: #2074c9; /* Efeito de hover mais sutil */
-    transition: background-color 0.3s ease; /* Animação suave */
+    background-color: #2074c9;
+    transition: background-color 0.3s ease; 
 }
 
 .textContainer .offerButton:active {
-    background-color: #2074c9; /* Cor ao clicar */
+    background-color: #2074c9; 
 }
 
-/* Responsividade para telas maiores (desktop widescreen) */
-
-
-/* Ajustes para telas médias (laptops menores) */
 @media (max-width: 1024px) {
     .carrouselContainer {
-        flex-wrap: wrap; /* Permite itens quebrarem linha */
+        flex-wrap: wrap; 
         justify-content: space-around;
     }
 
     .text2 {
-        font-size: 3.5rem; /* Texto menor */
+        font-size: 3.5rem; 
     }
 
     .carrouselItem img {
-        width: 50vw; /* Imagem maior para preencher a tela */
+        width: 50vw;
     }
 }

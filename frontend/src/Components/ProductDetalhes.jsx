@@ -21,7 +21,7 @@ const ProductDetalhes = () => {
 
   return (
     <>
-      {/* Breadcrumb */}
+      
       <nav className="breadcrumb">
         <span>Home</span> / <span>Produtos</span> / <span>Tênis</span> /
         <span>Nike</span> / <strong>{product.name}</strong>
